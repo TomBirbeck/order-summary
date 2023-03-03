@@ -35,26 +35,64 @@ main {
 }
 
 .card {
-    height: 60%;
-    width: 20%;
-    border-radius: 2rem;
-    background-color: var(--very-pale-blue);
+    height: 80%;
+    width: 90%;
+    border-radius: 1rem;
+    /* background-color: var(--very-pale-blue); */
+    background-color: white;
 }
 
 .card-img {
-    border-radius: 2rem 2rem 0 0;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2rem 1rem;
+    gap: 2rem;
+}
+
+.heading {
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: var(--dark-blue);
+}
+
+.info {
+    font-weight: 400;
+    color: var(--desaturated-blue);
 }
 
 .plan-container {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 1rem;
+    width: 90%;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    background-color: var(--very-pale-blue);
+}
+
+.plan-type {
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.plan-container::before {
+    content: url('./images/icon-music.svg');
+}
+
+.plan-price {
+    font-weight: 400;
+    color: var(--desaturated-blue);
+}
+
+.change-plan {
+    color: var(--dark-blue);
+    justify-self: flex-end;
 }
 
 .button {
