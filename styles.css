@@ -1,0 +1,31 @@
+:root {
+--pale-blue: hsl(225, 100%, 94%);
+--very-pale-blue: hsl(225, 100%, 98%);
+--bright-blue: hsl(245, 75%, 52%);
+--desaturated-blue: hsl(224, 23%, 55%);
+--dark-blue: hsl(223, 47%, 23%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
