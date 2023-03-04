@@ -16,6 +16,7 @@
 html, body {
     font-family: 'Red Hat Display', sans-serif;
     height: 100%;
+    background-color: var(--pale-blue);
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -29,7 +30,6 @@ img, picture, video, canvas, svg {
 
 main {
     height: 100%;
-    background-color: var(--pale-blue);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +135,7 @@ main {
 
 .cancel {
     background-color: transparent;
-    color: var(--pale-blue);
+    color: var(--bright-blue);
 }
 
 .cancel:hover {
