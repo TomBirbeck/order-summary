@@ -82,6 +82,7 @@ main {
 .plan-container::before {
     content: url('./images/icon-music.svg');
     margin: 0.3rem 0.8rem 0 0;
+    alt: "";
 }
 
 .plan-type {

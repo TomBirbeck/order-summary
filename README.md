@@ -33,7 +33,7 @@ My solution:
 
 ### Links
 
-<!-- - Solution URL: [](https://tombirbeck.github.io/order-summary/) -->
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-component-uhh6wLa8kK)
 - Live Site URL: [Live site](https://tombirbeck.github.io/order-summary/)
 
 ## My process
