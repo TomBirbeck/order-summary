@@ -35,10 +35,9 @@ main {
 }
 
 .card {
-    height: 80%;
+    height: 85%;
     width: 90%;
     border-radius: 1rem;
-    /* background-color: var(--very-pale-blue); */
     background-color: white;
 }
 
@@ -51,7 +50,7 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 2rem 1rem;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .heading {
@@ -63,17 +62,22 @@ main {
 .info {
     font-weight: 400;
     color: var(--desaturated-blue);
+    text-align: center;
 }
 
 .plan-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
     width: 90%;
     border-radius: 1rem;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     background-color: var(--very-pale-blue);
+}
+
+.plan-container::before {
+    content: url('./images/icon-music.svg');
+    margin: 0.3rem 0.8rem 0 0;
 }
 
 .plan-type {
@@ -81,8 +85,8 @@ main {
     color: var(--dark-blue);
 }
 
-.plan-container::before {
-    content: url('./images/icon-music.svg');
+.plan-info {
+    margin-right: 2.5rem;
 }
 
 .plan-price {
@@ -95,8 +99,43 @@ main {
     justify-self: flex-end;
 }
 
+.change-plan:hover {
+    color: var(--bright-blue);
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 .button {
     width: 90%;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+}
+
+.payment {
+    background-color: var(--bright-blue);
+    color: var(--very-pale-blue);
+    box-shadow: 0 0.3rem 0.5rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+.payment:hover {
+    background-color: var(--desaturated-blue);
+}
+
+.cancel {
+    background-color: transparent;
+    color: var(--pale-blue);
+}
+
+.cancel:hover {
+    color: var(--dark-blue);
 }
 
 .attribution {
